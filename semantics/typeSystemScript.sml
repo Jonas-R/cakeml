@@ -575,6 +575,8 @@ type_ps tvs tenv ps ts bindings')
 ==>
 type_ps tvs tenv (p::ps) (t::ts) (bindings'++bindings))`;
 
+
+
 val _ = Hol_reln ` (! sigs tenv tenvE n.
 T
 ==>
